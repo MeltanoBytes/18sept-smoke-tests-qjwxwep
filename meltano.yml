@@ -1,0 +1,12 @@
+version: 1
+default_environment: dev
+project_id: 01a0b37f-b57f-7c82-81c0-e0f857253730
+environments:
+- name: dev
+- name: staging
+- name: prod
+plugins:
+  files:
+  - name: files-melty-ai
+    variant: matatika
+    pip_url: git+https://github.com/meltano/files-melty-ai.git@v0.1.0
